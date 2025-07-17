@@ -26,5 +26,11 @@ public class studentcontoller {
         studentservice.addNewStudent(student);
     }
 
+    @DeleteMapping
+    public void deleteStudent(@RequestParam("id") Long studentid){
+        studentservice.deletestudent(studentid);
+    }
+
+
 
 }
