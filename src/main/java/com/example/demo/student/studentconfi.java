@@ -17,16 +17,14 @@ public class studentconfi {
             student pushpika = new student(
                     "pushpika",
                     "pushpika@gmail.com",
-                    LocalDate.of(2001, Month.JANUARY, 3),
-                    21
+                    LocalDate.of(2001, Month.JANUARY, 3)
 
             );
 
             student kt = new student(
                     "kt",
                     "kt@gmail.com",
-                    LocalDate.of(2002, Month.JANUARY, 7),
-                    21
+                    LocalDate.of(2002, Month.JANUARY, 7)
 
             );
 
